@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+html, body, div, span, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.widget {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.row {
+  display: block;
+  height: 100px;
+}
+
+.square {
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.unclicked:hover {
+  background-color: green;
+}
+
+.p1 {
+  background-color: blue;
+}
+
+.p2 {
+  background-color: red;
+}
